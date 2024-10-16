@@ -84,6 +84,20 @@ nav {
 .hot_icons a:hover {
     color: var(--primary-color);
 }
+.sub_child{
+    width: 150px;
+    background: #fff;
+    flex-wrap: wrap;
+    height: 280px;
+    visibility: hidden;
+    position: absolute;
+}
+.sub_parent{
+    position: relative;
+}
+.sub_parent:hover .sub_child{
+    visibility: visible;
+}
 
 /* nav end */
 
